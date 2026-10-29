@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ohana Multimarcas: estilo para toda a família.">
+  <title>Ohana Multimarcas | Estilo de família</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Cabeçalho: altere o nome e os links das categorias aqui. -->
+  <header class="cabecalho" id="inicio">
+    <div class="container cabecalho-conteudo">
+      <a class="marca" href="#inicio" aria-label="Ohana Multimarcas - início">
+        <strong>OHANA</strong>
+        <span>MULTIMARCAS</span>
+      </a>
+
+      <button class="botao-menu" id="botao-menu" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+      <nav class="menu" id="menu-principal" aria-label="Categorias de produtos">
+        <a href="#calca-jeans">CALÇA JEANS</a>
+        <a href="#moletom">CALÇA MOLETOM</a>
+        <a href="#camisetas">CAMISETAS</a>
+        <a href="#bermudas">BERMUDAS</a>
+        <a href="#bones">BONÉS</a>
+        <a href="#calcados">CALÇADOS</a>
+      </nav>
+
+      <a class="icone-sacola" href="#novidades" aria-label="Abrir sacola de compras">▢</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero principal: troque a imagem em css/style.css, na classe .hero. -->
+    <section class="hero" aria-label="Destaque Ohana Multimarcas">
+      <div class="hero-sombra"></div>
+      <div class="container hero-conteudo">
+        <p class="hero-etiqueta">OHANA MULTIMARCAS</p>
+        <h1>ESTILO DE FAMÍLIA</h1>
+        <p class="hero-descricao">
+          As melhores marcas de jeans, moletom, camisetas,<br>
+          bermudas, bonés e calçados — tudo num só lugar.
+        </p>
+        <div class="hero-botoes">
+          <a class="botao botao-laranja" href="#novidades">VER NOVIDADES</a>
+          <a class="botao botao-transparente" href="#categorias">CATEGORIAS</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Faixa rápida de categorias -->
+    <nav class="faixa-categorias" id="categorias" aria-label="Acesso rápido às categorias">
+      <div class="faixa-conteudo">
+        <a href="#calcados">CALÇADOS</a><span>✦</span>
+        <a href="#calca-jeans">CALÇA JEANS</a><span>✦</span>
+        <a href="#moletom">MOLETOM</a><span>✦</span>
+        <a href="#camisetas">CAMISETAS</a><span>✦</span>
+        <a href="#bermudas">BERMUDAS</a><span>✦</span>
+        <a href="#bones">BONÉS</a><span>✦</span>
+        <a href="#calcados">CALÇADOS</a>
+      </div>
+    </nav>
+
+    <!-- Secção de novidades -->
+    <section class="secao novidades" id="novidades">
+      <div class="container">
+        <div class="cabecalho-secao">
+          <div>
+            <p class="etiqueta">Seleção Ohana</p>
+            <h2>Novidades da semana</h2>
+          </div>
+          <a class="link-ver-tudo" href="#categorias">Ver categorias →</a>
+        </div>
+
+        <div class="produtos">
+          <article class="produto" id="calca-jeans">
+            <div class="produto-imagem produto-jeans"><span>NOVO</span></div>
+            <div class="produto-info"><h3>Calça jeans clássica</h3><p>Jeans confortável para todos os dias</p><strong>R$ 149,90</strong></div>
+          </article>
+          <article class="produto" id="moletom">
+            <div class="produto-imagem produto-moletom"><span>NOVO</span></div>
+            <div class="produto-info"><h3>Moletom essencial</h3><p>Conforto e estilo para a família</p><strong>R$ 119,90</strong></div>
+          </article>
+          <article class="produto" id="camisetas">
+            <div class="produto-imagem produto-camiseta"><span>NOVO</span></div>
+            <div class="produto-info"><h3>Camiseta Ohana</h3><p>Modelagem leve e versátil</p><strong>R$ 69,90</strong></div>
+          </article>
+          <article class="produto" id="calcados">
+            <div class="produto-imagem produto-calcado"><span>NOVO</span></div>
+            <div class="produto-info"><h3>Tênis casual</h3><p>O toque final para o seu visual</p><strong>R$ 199,90</strong></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chamada final -->
+    <section class="chamada" id="bermudas">
+      <div class="container chamada-conteudo">
+        <p class="etiqueta etiqueta-clara">Para toda a família</p>
+        <h2>Vista o seu estilo.</h2>
+        <a class="botao botao-claro" href="#novidades">EXPLORAR COLEÇÃO</a>
+      </div>
+    </section>
+
+    <section class="secao secao-simples" id="bones">
+      <div class="container tres-colunas">
+        <div><strong>01</strong><h3>Multimarcas</h3><p>As suas marcas preferidas num só lugar.</p></div>
+        <div><strong>02</strong><h3>Para todos</h3><p>Opções para diferentes estilos e idades.</p></div>
+        <div><strong>03</strong><h3>Atendimento próximo</h3><p>Escolha com calma e conte com a nossa equipa.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape-conteudo">
+      <div class="marca marca-rodape"><strong>OHANA</strong><span>MULTIMARCAS</span></div>
+      <p>© <span id="ano-atual"></span> Ohana Multimarcas. Todos os direitos reservados.</p>
+      <div class="redes-sociais"><a href="#">Instagram</a><a href="#">WhatsApp</a></div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
